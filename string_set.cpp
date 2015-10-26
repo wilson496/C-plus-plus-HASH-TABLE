@@ -1,10 +1,3 @@
-/*
-
-Cameron Wilson
-V00822184
-October 1st, 2015
-
-*/
 #include <iostream>
 #include <stdlib.h>
 #include <stdio.h>
