@@ -1,0 +1,15 @@
+adding "e"
+adding "f"
+adding "df"
+
+remove/check "df"
+	contains("df") returns 0
+
+remove/check "f"
+	contains("f") returns 0
+
+remove/check "e"
+	contains("e") returns 0
+
+remove "e" again
+	caught not_found_exception

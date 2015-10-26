@@ -1,0 +1,19 @@
+adding "e"
+adding "f"
+adding "df"
+
+iterate to end
+	next returns |e|
+	next returns |df|
+	next returns |f|
+	next returns NULL
+	next returns NULL
+
+reset and iterate once
+	next returns |e|
+
+remove an element and iterate
+	remove "df"
+	next returns |e|
+	next returns |f|
+	next returns NULL

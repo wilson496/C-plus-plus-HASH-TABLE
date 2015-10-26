@@ -1,0 +1,21 @@
+
+check/add "e"
+	contains("e") returns 0
+adding "e"
+	contains("e") returns 1
+
+check/add "f"
+	contains("f") returns 0
+adding "f"
+	contains("f") returns 1
+
+check/add "df"
+	contains("df") returns 0
+adding "df"
+	contains("df") returns 1
+
+add "e" again
+	caught duplicate_exception
+
+check for shallow copy
+	contains("g") returns 1
